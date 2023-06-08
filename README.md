@@ -16,8 +16,8 @@ This was a concept developed for a Hardware Hackathon "Byte into Hardware" held 
 5. IMU - MPU6050.
 
 ## Approach
-The project uses Computer Vision to perform gesture tracking and interpret the geture used by the user. This is then sent to the Arduino as actuation commands to the animetronic hands.
-To complete the feedback, we used a logitech webcam to provide a video feed to the user by couping it with servos for yaw control. The command to the yaw control is given via an IMU that tracks the yaw of the user's head.
+The project uses Computer Vision to perform gesture tracking and interpret the geture made by the user. This is then sent to the Arduino as actuation commands to make the animetronic hand replicate the gesture.
+To complete the loop, we used a logitech webcam to provide a video feed to the user by couping it with servos for yaw control. The command to the yaw control is given via an IMU that tracks the yaw of the user's head.
 
 ### Architecture
 ![Architecture](/images/Archi.png)
