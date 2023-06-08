@@ -33,6 +33,6 @@ The files can be found in the [CAD folder](./CAD) of the project.
 ## Gesture Tracking and Control
 In order to track the gesture, the project leverages the [Mediapipe](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker/python) package to locate the keypoints. Once the keypoints are obtained we perform a caliberation to eliminate scaling and map the movements of the keypoints from the fingers to obtain the degree of actuation. This is then sent to Arduino as servo actuation commands to actuate the animetronic hand. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KrDJfOwzTok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+!(Gesture Tracking)[/image/gesture.gif]
 
-The video shows the tracking along with the caliberatio process and servo command generation.
+The [video](https://www.youtube.com/watch?v=KrDJfOwzTok) shows the tracking along with the caliberatio process and servo command generation.
